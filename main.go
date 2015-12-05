@@ -1,3 +1,5 @@
+// +build !translate
+
 package main
 
 import (
