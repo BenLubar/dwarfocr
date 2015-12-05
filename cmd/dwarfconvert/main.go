@@ -3,8 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
+	_ "image/png"
 	"os"
 
+	"github.com/BenLubar/dwarfocr/internal/convert"
 	"github.com/BenLubar/dwarfocr/internal/utils"
 
 	_ "golang.org/x/image/bmp"
@@ -34,7 +36,7 @@ func main() {
 
 	img, err := utils.ReadRGBA(os.Stdin)
 	if err == nil {
-		err = ConvertOCR(os.Stdout, img, tilesFrom, tilesTo)
+		err = convert.ConvertOCR(os.Stdout, img, tilesFrom, tilesTo)
 	}
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)

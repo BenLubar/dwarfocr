@@ -6,6 +6,7 @@ import (
 	_ "image/png"
 	"os"
 
+	"github.com/BenLubar/dwarfocr/internal/ocr"
 	"github.com/BenLubar/dwarfocr/internal/utils"
 
 	_ "golang.org/x/image/bmp"
@@ -28,7 +29,7 @@ func main() {
 	for _, name := range flag.Args() {
 		img, err := utils.RGBAFromFile(name)
 		if err == nil {
-			err = PrintOCR(os.Stdout, img, tiles)
+			err = ocr.PrintOCR(os.Stdout, img, tiles)
 		}
 		if err != nil {
 			fmt.Fprintln(os.Stderr, "Error for", name+":", err)
