@@ -1,0 +1,26 @@
+[37m[40m[1mYour[30m[22m [37m[1mInventory[30m[22m                                                                  
+                                                                                
+[32m[1ma[30m[22m [37m-[30m [37mbronze[30m [37mlong[30m [37msword[30m                             [37mRight[30m [37mhand[30m                    
+[32m[1mb[30m[22m [37m-[30m [37mbronze[30m [37mshield[30m                                 [37mLeft[30m [37mhand[30m                     
+[32m[1mc[30m[22m [36m[1m-[30m[22m [36m[1mdog[30m[22m [36m[1mleather[30m[22m [36m[1mloincloth[30m[22m                         [36m[1mLower[30m[22m [36m[1mbody[30m[22m                    
+[32m[1md[30m[22m [36m[1m-[30m[22m [36m[1mhammerhead[30m[22m [36m[1mshark[30m[22m [36m[1mleather[30m[22m [36m[1mlong[30m[22m [36m[1mskirt[30m[22m           [36m[1mLower[30m[22m [36m[1mbody[30m[22m                    
+[32m[1me[30m[22m [36m[1m-[30m[22m [36m[1mbronze[30m[22m [36m[1mchain[30m[22m [36m[1mleggings[30m[22m                         [36m[1mLower[30m[22m [36m[1mbody[30m[22m                    
+[32m[1mf[30m[22m [36m[1m-[30m[22m [36m[1mcougar[30m[22m [36m[1mleather[30m[22m [36m[1mrobe[30m[22m                           [36m[1mUpper[30m[22m [36m[1mbody[30m[22m                    
+[32m[1mg[30m[22m [36m[1m-[30m[22m [36m[1mbronze[30m[22m [36m[1mmail[30m[22m [36m[1mshirt[30m[22m                             [36m[1mUpper[30m[22m [36m[1mbody[30m[22m                    
+[32m[1mh[30m[22m [36m[1m-[30m[22m [36m[1mwhale[30m[22m [36m[1mleather[30m[22m [36m[1mcap[30m[22m                             [36m[1mHead[30m[22m                          
+[32m[1mi[30m[22m [36m[1m-[30m[22m [36m[1mbronze[30m[22m [36m[1mhelm[30m[22m                                   [36m[1mHead[30m[22m                          
+[32m[1mj[30m[22m [36m[1m-[30m[22m [36m[1mbronze[30m[22m [36m[1mleft[30m[22m [36m[1mgauntlet[30m[22m                          [36m[1mLeft[30m[22m [36m[1mhand[30m[22m                     
+[32m[1mk[30m[22m [36m[1m-[30m[22m [36m[1mbronze[30m[22m [36m[1mright[30m[22m [36m[1mgauntlet[30m[22m                         [36m[1mRight[30m[22m [36m[1mhand[30m[22m                    
+[32m[1ml[30m[22m [36m[1m-[30m[22m [36m[1mrope[30m[22m [36m[1mreed[30m[22m [36m[1mfiber[30m[22m [36m[1msock[30m[22m                          [36m[1mLeft[30m[22m [36m[1mfoot[30m[22m                     
+[32m[1mm[30m[22m [36m[1m-[30m[22m [36m[1mbronze[30m[22m [36m[1mlow[30m[22m [36m[1mboot[30m[22m                               [36m[1mLeft[30m[22m [36m[1mfoot[30m[22m                     
+[32m[1mn[30m[22m [36m[1m-[30m[22m [36m[1mrope[30m[22m [36m[1mreed[30m[22m [36m[1mfiber[30m[22m [36m[1msock[30m[22m                          [36m[1mRight[30m[22m [36m[1mfoot[30m[22m                    
+[32m[1mo[30m[22m [36m[1m-[30m[22m [36m[1mbronze[30m[22m [36m[1mlow[30m[22m [36m[1mboot[30m[22m                               [36m[1mRight[30m[22m [36m[1mfoot[30m[22m                    
+[32m[1mp[30m[22m [36m[1m-[30m[22m [36m[1mvulture[30m[22m [36m[1mleather[30m[22m [36m[1mwaterskin[30m[22m                     [36m[1mCougar[30m[22m [36m[1mleather[30m[22m [36m[1mrobe[30m[22m           
+[32m[1mq[30m[22m [32m[1m-[30m[22m [32m[1m.[30m[22m [32m[1mwater[30m[22m [32m[1m[3][30m[22m                                                                 
+[32m[1mr[30m[22m [36m[1m-[30m[22m [36m[1mhorse[30m[22m [36m[1mleather[30m[22m [36m[1mbackpack[30m[22m                        [36m[1mUpper[30m[22m [36m[1mbody[30m[22m                    
+[32m[1ms[30m[22m [32m[1m-[30m[22m [32m[1m.[30m[22m [32m[1mprepared[30m[22m [32m[1mocean[30m[22m [32m[1msunfish[30m[22m [32m[1meye[30m[22m [32m[1m[5][30m[22m                                            
+                                                                                
+                                                                                
+                                                                                
+[32m[1m/*[30m[22m [37mto[30m [37mview[30m [37mother[30m [37mpages.[30m  [32m[1mESC[30m[22m [37mwhen[30m [37mdone.[30m                                         
+[39m[49m

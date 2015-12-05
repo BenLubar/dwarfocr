@@ -1,0 +1,26 @@
+[30m[40m[1m█████████████████████[37m[22m██[30m[47mSelect[37m[40m█[30m[47mItem:[37m[40m█[30m[47m300[37m[40m█[30m[47mPoints[37m[40m█[30m[47mRemaining[37m[40m██[30m[1m██████████████████████
+█[22m                                                                              [1m█
+█[22m [32m[1mEnter[30m[22m [37m[1mto[30m[22m [37m[1mselect.[30m[22m  [32m[1mESC[30m[22m [37m[1mto[30m[22m [37m[1mabort.[30m[22m                                              [1m█
+█[22m [32m[1m468293[30m[22m [37m[1mscroll.[30m[22m  [37m[1mType[30m[22m [37m[1min[30m[22m [37m[1mparts[30m[22m [37m[1mof[30m[22m [37m[1mthe[30m[22m [37m[1mname[30m[22m [37m[1mto[30m[22m [37m[1mnarrow[30m[22m [37m[1myour[30m[22m [37m[1msearch.[30m[22m             [1m█
+█[22m                                                                              [1m█
+█[22m [37mMeat[30m                        [36mgiant[30m [36mcave[30m [36mswallow[30m [36mmeat[30m                 [36m4[30m [36mP[30m      [1m█
+█[22m [37mFish[30m                        [36mprepared[30m [36mgiant[30m [36mcave[30m [36mswallow[30m [36mbrain[30m       [36m4[30m [36mP[30m      [1m█
+█[22m [37mDrinks[30m                      [36mprepared[30m [36mgiant[30m [36mcave[30m [36mswallow[30m [36mkidney[30m      [36m4[30m [36mP[30m      [1m█
+█[22m [37mDigging[30m [37mImplements[30m          [36mprepared[30m [36mgiant[30m [36mcave[30m [36mswallow[30m [36mspleen[30m      [36m4[30m [36mP[30m      [1m█
+█[22m [37mWeapons[30m                     [36mgiant[30m [36mcave[30m [36mswallow[30m [36msweetbread[30m           [36m4[30m [36mP[30m      [1m█
+█[22m [37mTraining[30m [37mWeapons[30m            [36mgiant[30m [36mcave[30m [36mswallow[30m [36mtripe[30m                [36m4[30m [36mP[30m      [1m█
+█[22m [37mAmmo[30m                        [36mchopped[30m [36mgiant[30m [36mcave[30m [36mswallow[30m [36mliver[30m        [36m4[30m [36mP[30m      [1m█
+█[22m [37mAnvils[30m                      [36mprepared[30m [36mgiant[30m [36mcave[30m [36mswallow[30m [36mintestines[30m  [36m4[30m [36mP[30m      [1m█
+█[22m [37mLeather[30m                     [36mprepared[30m [36mgiant[30m [36mcave[30m [36mswallow[30m [36mheart[30m       [36m4[30m [36mP[30m      [1m█
+█[22m [37mCloth[30m [37m(Silk)[30m                [36mprepared[30m [36mgiant[30m [36mcave[30m [36mswallow[30m [36mlung[30m        [36m4[30m [36mP[30m      [1m█
+█[22m [37mWood[30m                        [36mgiant[30m [36mmole[30m [36mmeat[30m                         [36m4[30m [36mP[30m      [1m█
+█[22m [37mStone[30m                       [36mprepared[30m [36mgiant[30m [36mmole[30m [36mbrain[30m               [36m4[30m [36mP[30m      [1m█
+█[22m [37mMetal[30m [37mBars[30m                  [36m[1mprepared[30m[22m [36m[1mgiant[30m[22m [36m[1mmole[30m[22m [36m[1mkidney[30m[22m              [36m[1m4[30m[22m [36m[1mP[30m[22m      [1m█
+█[22m [37mSmall[30m [37mCut[30m [37mGems[30m              [36mprepared[30m [36mgiant[30m [36mmole[30m [36mspleen[30m              [36m4[30m [36mP[30m      [1m█
+█[22m [37mLarge[30m [37mCut[30m [37mGems[30m              [36mgiant[30m [36mmole[30m [36msweetbread[30m                   [36m4[30m [36mP[30m      [1m█
+█[22m [37mSand[30m                        [36mgiant[30m [36mmole[30m [36mtripe[30m                        [36m4[30m [36mP[30m      [1m█
+█[22m                                                                              [1m█
+█[22m                                                                              [1m█
+█[22m                                                                              [1m█
+████████████████████████████████████████████████████████████████████████████████
+[39m[49m[22m
