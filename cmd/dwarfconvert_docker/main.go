@@ -10,11 +10,12 @@ import (
 
 	_ "golang.org/x/image/bmp"
 
+	"github.com/BenLubar/dwarfocr"
 	"github.com/BenLubar/dwarfocr/internal/convert"
 	"github.com/BenLubar/dwarfocr/internal/utils"
 )
 
-func must(tiles *Tileset, err error) *Tileset {
+func must(tiles *dwarfocr.Tileset, err error) *dwarfocr.Tileset {
 	if err != nil {
 		panic(err)
 	}
