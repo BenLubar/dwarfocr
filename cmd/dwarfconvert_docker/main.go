@@ -69,7 +69,7 @@ func handle(w http.ResponseWriter, r *http.Request) {
 <title>Dwarf Fortress Screenshot Converter</title>
 </head>
 <body>
-<form action="" method="post">
+<form action="" method="post" enctype="multipart/form-data">
 <input name="input" id="input" type="file" accept=".png,.bmp">
 <br>
 <input type="submit" value="!!SCIENCE!!">
