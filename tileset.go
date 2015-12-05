@@ -1,4 +1,4 @@
-package main
+package dwarfocr
 
 import (
 	"bytes"
@@ -6,11 +6,7 @@ import (
 	"image"
 	"image/color"
 	"image/draw"
-	_ "image/png"
 	"io"
-	"os"
-
-	_ "golang.org/x/image/bmp"
 )
 
 type Tileset [8][8][2][256]*image.RGBA
@@ -50,16 +46,6 @@ var colors = [8][2]color.RGBA{
 		{0xc0, 0xc0, 0xc0, 0xff},
 		{0xff, 0xff, 0xff, 0xff},
 	},
-}
-
-func ReadTilesetFromFile(name string) (*Tileset, error) {
-	f, err := os.Open(name)
-	if err != nil {
-		return nil, err
-	}
-	defer f.Close()
-
-	return ReadTileset(f)
 }
 
 func ReadTileset(r io.Reader) (*Tileset, error) {

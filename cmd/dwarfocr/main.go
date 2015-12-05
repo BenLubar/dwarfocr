@@ -1,18 +1,21 @@
-// +build !translate
-
 package main
 
 import (
 	"flag"
 	"fmt"
+	_ "image/png"
 	"os"
+
+	"github.com/BenLubar/dwarfocr/internal/utils"
+
+	_ "golang.org/x/image/bmp"
 )
 
 func main() {
 	tileset := flag.String("t", "curses_800x600.png", "the tileset to use")
 	flag.Parse()
 
-	tiles, err := ReadTilesetFromFile(*tileset)
+	tiles, err := utils.ReadTilesetFromFile(*tileset)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "Fatal error loading tileset:", err)
 		os.Exit(2)
@@ -23,7 +26,7 @@ func main() {
 	}
 	exit := 0
 	for _, name := range flag.Args() {
-		img, err := RGBAFromFile(name)
+		img, err := utils.RGBAFromFile(name)
 		if err == nil {
 			err = PrintOCR(os.Stdout, img, tiles)
 		}

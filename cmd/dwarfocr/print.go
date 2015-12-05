@@ -4,37 +4,16 @@ import (
 	"errors"
 	"fmt"
 	"image"
-	"image/draw"
 	"io"
-	"os"
+
+	"github.com/BenLubar/dwarfocr"
 )
 
 var cp437 = []rune(" ☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕‼¶§▬↨↑↓→←∟↔▲▼ !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~⌂ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜ¢£¥₧ƒáíóúñÑªº¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■ ")
 
-func RGBAFromFile(name string) (*image.RGBA, error) {
-	f, err := os.Open(name)
-	if err != nil {
-		return nil, err
-	}
-	defer f.Close()
-
-	img, _, err := image.Decode(f)
-	if err != nil {
-		return nil, err
-	}
-
-	if rgba, ok := img.(*image.RGBA); ok {
-		return rgba, nil
-	}
-
-	rgba := image.NewRGBA(img.Bounds())
-	draw.Draw(rgba, rgba.Rect, img, image.ZP, draw.Src)
-	return rgba, nil
-}
-
 var ErrDimensionsMismatch = errors.New("dwarfocr: image dimensions do not match tileset dimensions")
 
-func PrintOCR(w io.Writer, img *image.RGBA, tiles *Tileset) error {
+func PrintOCR(w io.Writer, img *image.RGBA, tiles *dwarfocr.Tileset) error {
 	var oldBg, oldFg, oldBright = -1, -1, -1
 
 	setColor := func(bg, fg, bright int) {

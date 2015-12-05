@@ -1,7 +1,8 @@
-package main
+package dwarfocr
 
 import (
 	"bytes"
+	_ "image/png"
 	"io/ioutil"
 	"path/filepath"
 	"testing"

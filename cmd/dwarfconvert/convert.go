@@ -1,50 +1,18 @@
-// +build translate
-
 package main
 
 import (
-	"flag"
-	"fmt"
+	"errors"
 	"image"
 	"image/draw"
 	"image/png"
 	"io"
-	"os"
+
+	"github.com/BenLubar/dwarfocr"
 )
 
-func main() {
-	from := flag.String("f", "curses_640x300.png", "the tileset to convert from")
-	to := flag.String("t", "curses_800x600.png", "the tileset to convert to")
-	flag.Parse()
+var ErrDimensionsMismatch = errors.New("dwarfocr: image dimensions do not match tileset dimensions")
 
-	tilesFrom, err := ReadTilesetFromFile(*from)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, "Fatal error loading tileset:", err)
-		os.Exit(2)
-	}
-
-	tilesTo, err := ReadTilesetFromFile(*to)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, "Fatal error loading tileset:", err)
-		os.Exit(2)
-	}
-
-	if flag.NArg() != 0 {
-		fmt.Fprintln(os.Stderr, "need 0 filenames")
-		os.Exit(2)
-	}
-
-	img, err := RGBAFromFile("/dev/stdin")
-	if err == nil {
-		err = ConvertOCR(os.Stdout, img, tilesFrom, tilesTo)
-	}
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		os.Exit(3)
-	}
-}
-
-func ConvertOCR(w io.Writer, img *image.RGBA, from, to *Tileset) error {
+func ConvertOCR(w io.Writer, img *image.RGBA, from, to *dwarfocr.Tileset) error {
 	sizeFrom := from[0][0][0][0].Rect.Size()
 	sizeTo := to[0][0][0][0].Rect.Size()
 	width, height := img.Rect.Dx(), img.Rect.Dy()
